@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ec38de05a3ba8a94c81e54b15346308e
+guid: 882eae051067dec41b8526c756a205f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9103689847138231581
-    second: panel_brown_corners_a_0
+      213: 1436055925934599145
+    second: 03e60259-3e08-4421-a592-7521ee5a5d5c-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: panel_brown_corners_a_0
+      name: 03e60259-3e08-4421-a592-7521ee5a5d5c-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 226
+        y: 224
+        width: 818
+        height: 412
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d15210cbeadc65e70800000000000000
-      internalID: 9103689847138231581
+      spriteID: 9eb2dee8145ede310800000000000000
+      internalID: 1436055925934599145
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      panel_brown_corners_a_0: 9103689847138231581
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
