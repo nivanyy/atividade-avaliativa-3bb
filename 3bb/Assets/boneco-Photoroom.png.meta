@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b8bcad58bce198b4f86d7ccd0e659d54
+guid: c64ce5e0bb3b4254281c502855566b82
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -89932075959017865
-    second: 03e60259-3e08-4421-a592-7521ee5a5d5c_0
+      213: -10525412323614980
+    second: boneco-Photoroom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,43 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 03e60259-3e08-4421-a592-7521ee5a5d5c_0
+      name: boneco-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 36
         y: 0
-        width: 1536
-        height: 1024
+        width: 933
+        height: 973
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77e9c8ed04f70cef0800000000000000
-      internalID: -89932075959017865
+      spriteID: cfe1659713b9adff0800000000000000
+      internalID: -10525412323614980
       vertices: []
       indices: 
       edges: []
@@ -160,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      03e60259-3e08-4421-a592-7521ee5a5d5c_0: -89932075959017865
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
