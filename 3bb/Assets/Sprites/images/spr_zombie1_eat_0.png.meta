@@ -129,20 +129,20 @@ TextureImporter:
       name: spr_zombie1_eat_0_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 55
-        height: 70
+        width: 60
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 55efe295a51786790800000000000000
-      internalID: -7536649343547277739
+      spriteID: 04db4a38e8263a54db0c1406369196ab
+      internalID: 1600250540
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6e91f8ab897271c4f89db131adb41051
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_zombie1_eat_0_0: 1600250540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -129,20 +129,20 @@ TextureImporter:
       name: spr_zombie1_attack_2_0
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 55
-        height: 69
+        width: 60
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c7ca118036a5b8e0800000000000000
-      internalID: -1678252558870984764
+      spriteID: 77298a9d18fa8da4189485b88e8911dc
+      internalID: -1222944433
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 070e56fe0a91b18468c53df4b96bc551
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_zombie1_attack_2_0: -1222944433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

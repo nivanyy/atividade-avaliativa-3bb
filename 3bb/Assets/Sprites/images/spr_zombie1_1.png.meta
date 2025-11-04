@@ -131,18 +131,18 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 59
-        height: 69
+        width: 60
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b30c408dbf45b1ae0800000000000000
-      internalID: -1577573803825512389
+      spriteID: 528755c073081ad4487d9e60eeca0548
+      internalID: -1020694532
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 98faa6cc19cacdf42b6744eada545a1f
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_zombie1_1_0: -1020694532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

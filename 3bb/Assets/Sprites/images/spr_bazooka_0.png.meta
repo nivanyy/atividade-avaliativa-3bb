@@ -133,8 +133,8 @@ TextureImporter:
         y: 0
         width: 80
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.39322656, y: 0.54004014}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7a677dc75e4392a4b9b34e0bf9e7dc7d
     internalID: 0
     vertices: []
     indices: 
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_bazooka_0_0: 6909385119875833920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
