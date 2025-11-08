@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Inimigo : MonoBehaviour
+public class Inimigo : Personagem
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
