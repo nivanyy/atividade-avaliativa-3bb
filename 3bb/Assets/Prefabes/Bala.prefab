@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8266607600416188514}
   - component: {fileID: 7695662327198436576}
   - component: {fileID: 5266703388865920363}
-  - component: {fileID: 3728028907831100251}
+  - component: {fileID: 1915747411745149224}
   m_Layer: 0
   m_Name: Bala
   m_TagString: Bala
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.04
---- !u!114 &3728028907831100251
+--- !u!114 &1915747411745149224
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
