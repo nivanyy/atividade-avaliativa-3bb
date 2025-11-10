@@ -427,6 +427,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1808911356 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2314142275624230784, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
+  m_PrefabInstance: {fileID: 6718003914947220859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1808911357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7453805724111470916, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
+  m_PrefabInstance: {fileID: 6718003914947220859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808911359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808911356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9cf9d681e0060479231ab3da1596ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saidaDoTiro: {fileID: 0}
+  bala: {fileID: 0}
+  IntervaloDeDisparo: 0.2
+  cursor: {fileID: 0}
 --- !u!1001 &1050781999045075913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -549,6 +575,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1588872014629869451, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
+      propertyPath: arma
+      value: 
+      objectReference: {fileID: 1808911357}
     - target: {fileID: 2126177078551009586, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
       propertyPath: m_Name
       value: Player
@@ -600,6 +630,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2126177078551009586, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6718003914947220861}
+    - targetCorrespondingSourceObject: {fileID: 2314142275624230784, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808911359}
   m_SourcePrefab: {fileID: 100100000, guid: 90b18764f46ef1b48964263cffa8d893, type: 3}
 --- !u!1 &6718003914947220860 stripped
 GameObject:
