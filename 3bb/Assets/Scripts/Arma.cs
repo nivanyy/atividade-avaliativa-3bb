@@ -23,7 +23,7 @@ public class Arma : MonoBehaviour
     
     void Start()
     {
-        camera = GetComponent<Camera>();
+        camera = Camera.main;
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Update()
