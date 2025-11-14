@@ -13,7 +13,7 @@ public class Arma : MonoBehaviour
     
     private float tempoDisparo = 0;
     
-    private Camera camera;
+    private new Camera camera;
     public GameObject cursor;
     
     private SpriteRenderer spriteRenderer;
@@ -23,6 +23,7 @@ public class Arma : MonoBehaviour
     
     void Start()
     {
+        Debug.Log("Bala disparada");
         camera = Camera.main;
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -62,8 +63,6 @@ public class Arma : MonoBehaviour
 
        if (tempoDisparo <= 0 && Input.GetKeyDown(KeyCode.Mouse0))
        {
-           Debug.Log("Bala disparada");
-           
            GameObject b = Instantiate(this.bala, saidaDoTiro.position, saidaDoTiro.rotation);
            
            tempoDisparo = IntervaloDeDisparo;
