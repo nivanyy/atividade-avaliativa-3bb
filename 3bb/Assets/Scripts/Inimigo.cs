@@ -76,8 +76,10 @@ public class Inimigo : Personagem
         {
             animator.SetTrigger( name:"Morto");
         }
+        
+        animator.SetBool("Andando", andando);
 
-        animator.SetBool(name:"Andando", andando);
+
     }
     
    private void onCollisionEnter2D(Collision2D collision)
