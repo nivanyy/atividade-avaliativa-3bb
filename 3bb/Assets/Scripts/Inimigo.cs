@@ -11,8 +11,11 @@ public class Inimigo : Personagem
     
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-
+    public AudioSource audioSource;
     private bool andando = false;
+    
+    
+    
     
     public void setDano(int dano)
     {
@@ -27,6 +30,8 @@ public class Inimigo : Personagem
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        
+        audioSource = GetComponent<AudioSource>();
         
         if (posicaoDoPlayer == null)
         {
@@ -93,4 +98,10 @@ public class Inimigo : Personagem
         Destroy(gameObject);
         Debug.Log("Teste...");
     }
+
+    public void playAudio()
+    {
+        audioSource.Play();
+    }
+  
 }
