@@ -41,13 +41,14 @@ GameObject:
   m_Component:
   - component: {fileID: 712299472748774395}
   - component: {fileID: 2017266545623172423}
+  - component: {fileID: 5871265397787366417}
   m_Layer: 0
   m_Name: Arma 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &712299472748774395
 Transform:
   m_ObjectHideFlags: 0
@@ -57,10 +58,11 @@ Transform:
   m_GameObject: {fileID: 1474710056247751993}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.852981, y: 0.18085629, z: 0}
+  m_LocalPosition: {x: 0.062, y: -0.183, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 227059763568654799}
   m_Father: {fileID: 4324808360693298108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2017266545623172423
@@ -106,7 +108,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 6909385119875833920, guid: d97a9b838cdf40f4fb2d51a36112b0c6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -118,6 +120,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5871265397787366417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474710056247751993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9cf9d681e0060479231ab3da1596ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saidaDoTiro: {fileID: 227059763568654799}
+  bala: {fileID: 6088523767582436954, guid: e20fcf3183a25f3488dbe81e3465d84f, type: 3}
+  IntervaloDeDisparo: 0.5
+  cursor: {fileID: 1971958653033219580}
 --- !u!1 &1971958653033219580
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +238,7 @@ GameObject:
   - component: {fileID: 1588872014629869451}
   - component: {fileID: 5691384242464455931}
   - component: {fileID: 5496079077589432992}
+  - component: {fileID: 2897543403712907486}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -438,6 +457,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2897543403712907486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126177078551009586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2e4d2174a3b8146a4fc1ecddd8fc47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arma1: {fileID: 2314142275624230784}
+  arma2: {fileID: 1474710056247751993}
 --- !u!1 &2314142275624230784
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7453805724111470916
 Transform:
   m_ObjectHideFlags: 0
@@ -543,3 +576,34 @@ MonoBehaviour:
   bala: {fileID: 3746476017608556035, guid: cec5d24ec334a704fa90066fd9d7e888, type: 3}
   IntervaloDeDisparo: 0.2
   cursor: {fileID: 1971958653033219580}
+--- !u!1 &3653814266764223760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 227059763568654799}
+  m_Layer: 0
+  m_Name: SaidaDeTiro
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &227059763568654799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3653814266764223760}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.669, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 712299472748774395}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
