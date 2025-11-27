@@ -931,6 +931,7 @@ GameObject:
   - component: {fileID: 222736029}
   - component: {fileID: 222736031}
   - component: {fileID: 222736030}
+  - component: {fileID: 222736032}
   m_Layer: 5
   m_Name: Panel principal
   m_TagString: Untagged
@@ -1007,6 +1008,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222736028}
   m_CullTransparentMesh: 1
+--- !u!114 &222736032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222736028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db1bf092e123464c82ae51ebcf2b1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &240446329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1453,50 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &442320320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 442320322}
+  - component: {fileID: 442320321}
+  m_Layer: 0
+  m_Name: MenuController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442320321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442320320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db1bf092e123464c82ae51ebcf2b1a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &442320322
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442320320}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3582171, y: -0.35116833, z: -9.937522}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3937,7 +3994,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bee753a071ffb754e9ac6c000498e7a4, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: bee753a071ffb754e9ac6c000498e7a4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -4140,7 +4197,6 @@ GameObject:
   - component: {fileID: 1211266979}
   - component: {fileID: 1211266982}
   - component: {fileID: 1211266981}
-  - component: {fileID: 1211266983}
   - component: {fileID: 1211266980}
   m_Layer: 5
   m_Name: "bot\xE3o iniciar"
@@ -4213,9 +4269,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1211266983}
-        m_TargetAssemblyTypeName: carregarcena, Assembly-CSharp
-        m_MethodName: Carregar
+      - m_Target: {fileID: 442320321}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: IniciarJogo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4263,18 +4319,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211266978}
   m_CullTransparentMesh: 1
---- !u!114 &1211266983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211266978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5bda31a1488b80459fb9cfe4858e4df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1211688353
 GameObject:
   m_ObjectHideFlags: 0
@@ -7137,3 +7181,4 @@ SceneRoots:
   - {fileID: 690940238}
   - {fileID: 519420032}
   - {fileID: 1130490482}
+  - {fileID: 442320322}
