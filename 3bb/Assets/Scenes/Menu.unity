@@ -718,7 +718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &200346050
 RectTransform:
   m_ObjectHideFlags: 0
@@ -841,7 +841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Equipe:\nGaby\nSofia\nFelipe \nJose\n\nProgramacao;\nGaby \nSofia\n\nArte:\nFelipe\n\nMusica:\nJose\n"
+  m_text: "Equipe:\nGaby\nSofia\nFelipe \nJose\n\nProgramacao;\nGaby \nSofia\n\nInspiracao:\nAquilis\n\nMusica:\nJose\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 39a5abe2824ecad40b6982360f784149, type: 2}
   m_sharedMaterial: {fileID: 5076368400421253737, guid: 39a5abe2824ecad40b6982360f784149, type: 2}
@@ -938,7 +938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &222736029
 RectTransform:
   m_ObjectHideFlags: 0
